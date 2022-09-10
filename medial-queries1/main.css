@@ -5,10 +5,10 @@
 }
 
 body {
-  margin: 0;
+  margin: 10px;
   font-family: sans-serif;
   text-align: center;
-  background-color: var(--copper-rose);
+  background-color:  ghostwhite;
 }
 
 .container {
@@ -18,23 +18,20 @@ body {
   justify-content: space-between;
 }
 
-.a, .b, .c {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.a {
+  background-color: var(--copper-rose);
+  min-height: 15vh;
+  flex-grow: 1;
 }
 
-a {
-  min-height: 60vh;
-  flex-grow: 5;
-}
-
-b {
+.b {
   background-color: var(--independence);
-  flex-grow: 2
+  min-height: 65vh;
+  flex-grow: 1;
 }
 
-c {
+.c { 
   background-color: var(--pewter-blue);
+  min-height: 15vh;
   flex-grow: 1;
 }

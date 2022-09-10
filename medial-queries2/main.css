@@ -8,5 +8,64 @@
 }
 
 body {
+  margin: 0px;
+  font-family: sans-serif;
+  text-align: center;
+  background-color:  ghostwhite;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.desktop-containers{
+  display: flex;
+  flex-direction: column;
+}
+
+.a {
   background-color: var(--pastel-blue);
+  min-height: 15vh;
+  flex-grow: 1;
+}
+
+.b {
+  background-color: var(--cadet-grey);
+  min-height: 60vh;
+}
+
+.c { 
+  background-color: var(--steel-teal);
+  min-width: 33vh;
+  min-height: 33vh;
+  flex: 33%;
+}
+
+.d { 
+  background-color: var(--police-blue);
+  min-width: 33vh;
+  min-height: 33vh;
+  flex: 33%;
+}
+
+.e { 
+  background-color: var(--deep-aquamarine);
+  min-width: 33vh;
+  min-height: 33vh;
+  flex: 33%;
+}
+
+.f { 
+  background-color: var(--dark-sea-green);
+  min-height: 15vh;
+  flex-grow: 1;
+}
+
+@media screen and (min-width:600px) {
+  .desktop-containers {
+    flex-direction: row;
+  }
 }
