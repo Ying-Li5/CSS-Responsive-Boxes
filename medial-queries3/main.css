@@ -1,3 +1,14 @@
+:root {
+  --metallic-blue: #326273;
+  --celadon-green: #308C83;
+  --jasmine: #FDDA89;
+  --satin-sheen-gold: #CF982B;
+  --antique-ruby: #81222B;
+  --chocolate-cosmos: #570F0F;
+  --deep-koamaru: #3B3267;
+  --crayolas-violet: #903477;
+}
+
 body {
-  background: peachpuff;
+  background-color: var(--metallic-blue)
 }

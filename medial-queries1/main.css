@@ -1,3 +1,40 @@
+:root {
+  --copper-rose:  #A36560;
+  --independence: #524D67;
+  --pewter-blue: #8CACBD;
+}
+
 body {
-  background: blanchedalmond;
+  margin: 0;
+  font-family: sans-serif;
+  text-align: center;
+  background-color: var(--copper-rose);
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.a, .b, .c {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  min-height: 60vh;
+  flex-grow: 5;
+}
+
+b {
+  background-color: var(--independence);
+  flex-grow: 2
+}
+
+c {
+  background-color: var(--pewter-blue);
+  flex-grow: 1;
 }

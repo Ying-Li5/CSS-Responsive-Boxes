@@ -1,3 +1,12 @@
+:root {
+  --pastel-blue: #B5C7CC;
+  --cadet-grey: #8BA1AD;
+  --steel-teal: #587B89;
+  --police-blue: #244C66;
+  --deep-aquamarine: #407D6C;
+  --dark-sea-green: #7DB290;
+}
+
 body {
-  background: papayawhip;
+  background-color: var(--pastel-blue);
 }
