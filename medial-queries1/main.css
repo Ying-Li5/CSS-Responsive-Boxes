@@ -5,7 +5,7 @@
 }
 
 body {
-  margin: 10px;
+  margin: 0px;
   font-family: sans-serif;
   text-align: center;
   background-color:  ghostwhite;
@@ -22,16 +22,19 @@ body {
   background-color: var(--copper-rose);
   min-height: 15vh;
   flex-grow: 1;
+  margin: 10px;
 }
 
 .b {
   background-color: var(--independence);
   min-height: 65vh;
   flex-grow: 1;
+  margin: 10px;
 }
 
 .c { 
   background-color: var(--pewter-blue);
   min-height: 15vh;
   flex-grow: 1;
+  margin: 10px;
 }

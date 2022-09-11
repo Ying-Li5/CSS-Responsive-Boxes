@@ -30,38 +30,45 @@ body {
   background-color: var(--pastel-blue);
   min-height: 15vh;
   flex-grow: 1;
+  margin: 10px;
 }
 
 .b {
   background-color: var(--cadet-grey);
   min-height: 60vh;
+  flex-grow: 1;
+  margin: 10px;
 }
 
 .c { 
   background-color: var(--steel-teal);
-  min-width: 33vh;
-  min-height: 33vh;
+  min-width: 30vh;
+  min-height: 30vh;
   flex: 33%;
+  margin: 10px;
 }
 
 .d { 
   background-color: var(--police-blue);
-  min-width: 33vh;
-  min-height: 33vh;
+  min-width: 30vh;
+  min-height: 30vh;
   flex: 33%;
+  margin: 10px;
 }
 
 .e { 
   background-color: var(--deep-aquamarine);
-  min-width: 33vh;
-  min-height: 33vh;
+  min-width: 30vh;
+  min-height: 30vh;
   flex: 33%;
+  margin: 10px;
 }
 
 .f { 
   background-color: var(--dark-sea-green);
   min-height: 15vh;
   flex-grow: 1;
+  margin: 10px;
 }
 
 @media screen and (min-width:600px) {
